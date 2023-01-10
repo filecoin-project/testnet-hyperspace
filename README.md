@@ -1,6 +1,6 @@
 # Hyperspace Testnet
 
-:warning: **Under Construction** - Hyperspace will be launched later in December 2022 :warning:
+:warning: **Under Construction** - Hyperspace will be launched on Jan 16th, 2023 :warning:
 
 Meta info about the Hyperspace testnet for Filecoin developers
 
@@ -11,7 +11,7 @@ Meta info about the Hyperspace testnet for Filecoin developers
 ## Quickstart
 
 1. Add the Hyperspace testnet to your wallet (e.g. MetaMask).
-    - Go to https://chainlist.org/chain/31415
+    - Go to https://chainlist.org/chain/3141
     - Click on "Connect wallet"
 2. Create a new account in MetaMask to use with Filecoin.
 3. Use the https://wallaby.network/#faucet [:warning: TODO - update] to draw funds to your Ethereum address (it will be converted behind the scenes to a Filecoin f4 address)
