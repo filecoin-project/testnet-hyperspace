@@ -1,6 +1,6 @@
 # Hyperspace Testnet
 
-:warning: **Under Construction** - Hyperspace will be launched later in December 2022 :warning:
+:warning: **Under Construction** - Hyperspace will be launched January 16, 2023 :warning:
 
 Meta info about the Hyperspace testnet for Filecoin developers
 
@@ -8,16 +8,27 @@ Meta info about the Hyperspace testnet for Filecoin developers
 
 &nbsp;
 
+## Overview
+
+The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended for developers' longer-term testing efforts.
+
+- As of Jan 16, Hyperspace will support the penultimate FEVM release, and will be upgraded to the the final FEVM release on Feb 2. ([List of FEVM releases](https://github.com/filecoin-project/ref-fvm/issues/692))
+- Hyperspace will support 512 MiB and 32 GiB storage deals with 2 miners auto-accepting new deals from developers.
+- A comparison of Filecoin's various testnets is available in [FIP #544](https://github.com/filecoin-project/FIPs/discussions/544).
+
+
+&nbsp;
+
 ## Quickstart
 
 1. Add the Hyperspace testnet to your wallet (e.g. MetaMask).
-    - Go to https://chainlist.org/chain/31415
+    - Go to https://chainlist.org/chain/3141
     - Click on "Connect wallet"
 2. Create a new account in MetaMask to use with Filecoin.
-3. Use the https://wallaby.network/#faucet [:warning: TODO - update] to draw funds to your Ethereum address (it will be converted behind the scenes to a Filecoin f4 address)
-4. Follow the transaction in one of the recommended Hyperspace testnet explorers:
-    - https://wallaby.filfox.info/en [:warning: TODO - update]
-    - https://explorer.glif.io/ (select Wallaby [TODO - update] from the networks dropdown)
+3. Use https://hyperspace.filtest.network/#faucet to request funds to your Ethereum address (it will be converted behind the scenes to a Filecoin f4 address)
+4. Follow the transaction in one of the recommended Hyperspace testnet explorers: [:warning: TODO - update]
+    - https://hyperspace.filfox.info/en 
+    - https://explorer.glif.io/?network=hyperspace (or select Hyperspace from the networks dropdown)
 5. Your account is now funded and can be used in Ethereum tools such as Hardhat, Foundry, Remix, etc.
 
 ## Technical details
