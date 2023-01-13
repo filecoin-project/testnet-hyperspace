@@ -35,7 +35,7 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 
 [:warning: TODO - update this section]
 
-**Maintainer:** @f8-ptrk
+**Maintainer:** @f8-fil-ops
 
 **Genesis**:
 
