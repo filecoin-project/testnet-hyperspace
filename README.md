@@ -13,7 +13,7 @@ Meta info about the Hyperspace testnet for Filecoin developers
 The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended for developers' longer-term testing efforts.
 
 - As of Jan 16, Hyperspace will support the penultimate FEVM release, and will be upgraded to the the final FEVM release on Feb 2. ([List of FEVM releases](https://github.com/filecoin-project/ref-fvm/issues/692))
-- Hyperspace will support 512 MiB and 32 GiB storage deals with 2 miners auto-accepting new deals from developers.
+- Hyperspace will support `512 MiB`, `32 GiB`, and `64 GiB` sectors with 2 miners auto-accepting new deals from developers.
 - A comparison of Filecoin's various testnets is available in [FIP #544](https://github.com/filecoin-project/FIPs/discussions/544).
 
 
