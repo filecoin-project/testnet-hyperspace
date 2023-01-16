@@ -84,9 +84,9 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 - **Filecoin CID Checker**: [https://wallaby.filecoin.tools](https://wallaby.filecoin.tools/) - check your deal CID’s storage status
 - **JSON RPC API - Public Endpoints**:
   - Limited to all read API calls + `MPoolPush` (for sending already signed messages)
-  - https://wallaby.node.glif.io/rpc/v0 (for stable API v0)
-  - https://wallaby.node.glif.io/rpc/v1 (for new API v1 - see [API README](https://github.com/filecoin-project/lotus/blob/422f66776fa07827f2cfa9d2f8142ef29dcd2a95/api/README.md))
-  - web socket endpoint: wss://wss.wallaby.node.glif.io/apigw/lotus/rpc/v0
+  - https://api.hyperspace.node.glif.io/rpc/v0 (for stable API v0)
+  - https://api.hyperspace.node.glif.io/rpc/v1 (for new API v1 - see [API README](https://github.com/filecoin-project/lotus/blob/422f66776fa07827f2cfa9d2f8142ef29dcd2a95/api/README.md))
+  - web socket endpoint: wss://wss.hyperspace.node.glif.io/apigw/lotus/rpc/v0
 - **Wallaby SPs auto-accepting storage deals:**
   - See [Deal Miners section in the Wallaby Docs](https://kb.factor8.io/en/docs/fil/wallabynet#deal-miners)
 - **Schedule**:
@@ -95,7 +95,7 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 - **MetaMask** (HowTo):
   - Open MetaMask and add a new network:
     - Name: Filecoin Wallaby
-    - RPC URL: https://wallaby.node.glif.io/rpc/v0 (once the public RPC has been updated, otherwise use appropriate private URL - **please see the note below**)
+    - RPC URL: https://api.hyperspace.node.glif.io/rpc/v0 (once the public RPC has been updated, otherwise use appropriate private URL - **please see the note below**)
     - ChainID: [**31415**](https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-31415.json) (Wallaby's )
     - Currency symbol: tFIL (Test FIL).
   - Create a new account in MetaMask to use with Filecoin.
