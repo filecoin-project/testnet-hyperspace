@@ -63,12 +63,12 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 /dns4/sg0.bootstrap.hyperspace.yoga/tcp/31000/p2p/12D3KooWCENec46HHByaJKzbjSqz9TqVdSxSAdi9FKNwdMvfw3vp
 ```
 
-:warning: **Under Construction** - the following will be fully updated soon
+:warning: **Under Construction** - More updates below coming soon :warning:
 
 **FVM release**:
 
-- [FVM M2.1 Sapphire (r08)](https://github.com/filecoin-project/ref-fvm/issues/940)
-- Lotus commit: [cb838cedae49106e9ceb7302add3688a835dbdb4](https://github.com/filecoin-project/lotus/commit/cb838cedae49106e9ceb7302add3688a835dbdb4)
+- [FVM M2.1 Carbonado.2 (rr11)](https://github.com/filecoin-project/ref-fvm/issues/1371)
+- Lotus commit: [2a3989e4bd446b7f6ccee52ad6387b937072cf7f](https://github.com/filecoin-project/lotus/commit/2a3989e4bd446b7f6ccee52ad6387b937072cf7f)
 - [List of FVM releases](https://github.com/filecoin-project/ref-fvm/issues/692)
 
 **Resources**:
@@ -80,7 +80,6 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 - **Block Explorers**:
   - [https://hyperspace.filfox.info/en](https://hyperspace.filfox.info/en)
   - [https://explorer.glif.io/actor/?network=hyperspace](https://explorer.glif.io/actor/?network=hyperspace)
-  - [https://beryx.zondax.ch/](https://beryx.zondax.ch/)
 - **Filecoin CID Checker**: [https://hyperspace.filecoin.tools/](https://hyperspace.filecoin.tools/) - check your deal CID’s storage status
 - **JSON RPC API - Public Endpoints**:
   - Limited to all read API calls + `MPoolPush` (for sending already signed messages)
