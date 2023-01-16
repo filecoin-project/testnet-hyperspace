@@ -1,6 +1,6 @@
 # Hyperspace Testnet
 
-:warning: **Under Construction** - Hyperspace will be launched January 16, 2023 :warning:
+Hyperspace launched on January 16, 2023
 
 Meta info about the Hyperspace testnet for Filecoin developers
 
@@ -75,40 +75,41 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 
 - Slack Channel for Updates: [#fil-net-hyperspace-discuss](https://filecoinproject.slack.com/archives/C04JEJB82RY)
 
-- **Wallaby Docs**: [https://kb.factor8.io/en/docs/filecoin/testnets/hyperspace](https://kb.factor8.io/en/docs/filecoin/testnets/hyperspace)
+- **Hyperspace Docs**: [https://kb.factor8.io/en/docs/filecoin/testnets/hyperspace](https://kb.factor8.io/en/docs/filecoin/testnets/hyperspace)
 - **Faucet**: https://hyperspace.filtest.network/#faucet
 - **Block Explorers**:
-  - [https://wallaby.filscan.io](https://wallaby.filscan.io)
-  - [https://explorer.glif.io/actor/?network=wallaby](https://explorer.glif.io/actor/?network=wallaby)
-  - [https://wallaby.filfox.info/en](https://wallaby.filfox.info/en)
+  - [https://hyperspace.filfox.info/en](https://hyperspace.filfox.info/en)
+  - [https://explorer.glif.io/actor/?network=hyperspace](https://explorer.glif.io/actor/?network=hyperspace)
   - [https://beryx.zondax.ch/](https://beryx.zondax.ch/)
-- **Filecoin CID Checker**: [https://wallaby.filecoin.tools](https://wallaby.filecoin.tools/) - check your deal CID’s storage status
+- **Filecoin CID Checker**: [https://hyperspace.filecoin.tools/](https://hyperspace.filecoin.tools/) - check your deal CID’s storage status
 - **JSON RPC API - Public Endpoints**:
   - Limited to all read API calls + `MPoolPush` (for sending already signed messages)
-  - https://api.hyperspace.node.glif.io/rpc/v0 (for stable API v0)
-  - https://api.hyperspace.node.glif.io/rpc/v1 (for new API v1 - see [API README](https://github.com/filecoin-project/lotus/blob/422f66776fa07827f2cfa9d2f8142ef29dcd2a95/api/README.md))
-  - web socket endpoint: wss://wss.hyperspace.node.glif.io/apigw/lotus/rpc/v0
-- **Wallaby SPs auto-accepting storage deals:**
-  - See [Deal Miners section in the Wallaby Docs](https://kb.factor8.io/en/docs/fil/wallabynet#deal-miners)
-- **Schedule**:
-  - Normally reset every Tuesday with [bleeding edge FEVM releases](https://github.com/filecoin-project/ref-fvm/issues/692)
-  - Follow [#fil-net-wallaby-discuss](https://filecoinproject.slack.com/archives/C03KGBTJ0BY) for updates
+  - **Glif Nodes RPC:**
+    - https://api.hyperspace.node.glif.io/rpc/v0 (for stable API v0)
+    - web socket endpoint: wss://wss.hyperspace.node.glif.io/apigw/lotus/rpc/v0
+  - **ChainStack RPC:**
+    - https://filecoin-hyperspace.chainstacklabs.com/rpc/v0
+    - wss://ws-filecoin-hyperspace.chainstacklabs.com/rpc/v0
+   - **Ankr RPC:**
+    - Coming Soon
+- **Hyperspce SPs auto-accepting storage deals:**
+  - See [Deal Miners section in the Hyperspace Docs](https://kb.factor8.io/en/docs/fil/hyperpsace#deal-miners)
 - **MetaMask** (HowTo):
   - Open MetaMask and add a new network:
-    - Name: Filecoin Wallaby
+    - Name: Filecoin Hyperspace
     - RPC URL: https://api.hyperspace.node.glif.io/rpc/v0 (once the public RPC has been updated, otherwise use appropriate private URL - **please see the note below**)
-    - ChainID: [**31415**](https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-31415.json) (Wallaby's )
+    - ChainID: [**3141**](https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-3141.json) (Filecoin - Hyperspace testnet)
     - Currency symbol: tFIL (Test FIL).
   - Create a new account in MetaMask to use with Filecoin.
   - (OPTIONAL - the faucet accepts 0x style addresses now) Go to https://explorer.glif.io/ethereum/, and select the account to see its f4 address.
-  - Use the [faucet](https://wallaby.network/#faucet) to draw funds to your f4 (0x style addresses are translated automatically to f4's in the backend) or alternatively use `lotus send` to transfer funds to the f4 address.
+  - Use the [faucet](https://hyperspace.filtest.network/#faucet) to draw funds to your f4 (0x style addresses are translated automatically to f4's in the backend) or alternatively use `lotus send` to transfer funds to the f4 address.
   - Wait until the transaction process, and verify that the funds appear in MetaMask.
   - Create another new account in MetaMask, (optional) obtain its f4 address again.
   - Use MetaMask to send funds from your first account to your second account.
   - **Notes on MM**
     - Note that you may need to increase the gas limit manually because there's something strange going on with gas estimation at the moment.
   - **Note on GLIF**:
-    - The GLIF explorer seems to have some problems with f4 addresses right now, please refer to the #fil-net-wallaby-discuss for questions/solutions
+    - The GLIF explorer seems to have some problems with f4 addresses right now, please refer to the #fil-net-hyperspace-discuss for questions/solutions
 
 
 <hr>
