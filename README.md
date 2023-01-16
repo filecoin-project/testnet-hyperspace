@@ -33,16 +33,14 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 
 ## Technical details
 
-[:warning: TODO - update this section]
-
-**Maintainer:** @f8-ptrk
+**Maintainer:** @f8-fil-ops
 
 **Genesis**:
 
-- CAR File: `QmPe6sDt3btoN6TtpFJVrMjjsiFxojMkcVkm36khJ37JB6`
-- Reset Timestamp: `2022-11-17T12:19:22Z`
-- Genesis Block CID: `bafy2bzacebn3zgajhzrkelgihbt6sbveglecq4d3ezqfa652zok6c3a5enkzs`
-- sha1 Digest: `ee5fc220ea9d8e79eb47d03b1236e85d3f21dfdb`
+- CAR File: `Qmbu9g75GMjbokCNHPQPXAyKZoY8NqVYtkY4PQT7Zvp2T6`
+- Reset Timestamp: `2023-01-16T6:00:00Z`
+- Genesis Block CID: `bafy2bzacebqfpeylmrl4h3pq4ofbdj2bfbw2i45fuy6qm4wxcyebpsxhrpqhu`
+- sha1 Digest: `52d82b6fcad138a726477152ff2543a91f2b83f8`
 
 **Network parameters**:
 
