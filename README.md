@@ -1,6 +1,6 @@
 # Hyperspace Testnet
 
-Hyperspace launched on January 16, 2023
+Hyperspace launched on Jan 16, 2023 and upgraded on Jan 18, 2023.
 
 Meta info about the Hyperspace testnet for Filecoin developers
 
