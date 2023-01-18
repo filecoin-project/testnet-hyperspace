@@ -81,14 +81,15 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
   - [https://hyperspace.filfox.info/en](https://hyperspace.filfox.info/en)
   - [https://explorer.glif.io/actor/?network=hyperspace](https://explorer.glif.io/actor/?network=hyperspace)
 - **Filecoin CID Checker**: [https://hyperspace.filecoin.tools/](https://hyperspace.filecoin.tools/) - check your deal CID’s storage status
-- **JSON RPC API - Public Endpoints**:
-  - Limited to all read API calls + `MPoolPush` (for sending already signed messages)
+- **RPC - Public Endpoints**:
+  - These endpoints are limited to all read-only Filecoin RPC API calls + `MPoolPush` (for sending already signed messages)
   - **Glif Nodes RPC:**
     - https://api.hyperspace.node.glif.io/rpc/v0 (for stable API v0)
     - web socket endpoint: wss://wss.hyperspace.node.glif.io/apigw/lotus/rpc/v0
   - **ChainStack RPC:**
     - https://filecoin-hyperspace.chainstacklabs.com/rpc/v0
     - wss://ws-filecoin-hyperspace.chainstacklabs.com/rpc/v0
+    - Info page: https://chainstack.com/labs/#filecoin
    - **Ankr RPC:**
     - Coming Soon
 - **Hyperspce SPs auto-accepting storage deals:**
