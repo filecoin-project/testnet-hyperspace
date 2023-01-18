@@ -79,7 +79,7 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 - **Faucet**: https://hyperspace.filtest.network/#faucet
 - **Block Explorers**:
   - [https://hyperspace.filfox.info/en](https://hyperspace.filfox.info/en)
-  - [https://explorer.glif.io/actor/?network=hyperspace](https://explorer.glif.io/actor/?network=hyperspace)
+  - [https://explorer.glif.io/?network=hyperspace](https://explorer.glif.io/?network=hyperspace)
 - **Filecoin CID Checker**: [https://hyperspace.filecoin.tools/](https://hyperspace.filecoin.tools/) - check your deal CID’s storage status
 - **RPC - Public Endpoints**:
   - These endpoints are limited to all read-only Filecoin RPC API calls + `MPoolPush` (for sending already signed messages)
