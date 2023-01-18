@@ -35,14 +35,14 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 
 **Maintainer:** @f8-fil-ops
 
-**Genesis**:
+#### **Genesis**:
 
 - CAR File: `Qmbu9g75GMjbokCNHPQPXAyKZoY8NqVYtkY4PQT7Zvp2T6`
 - Reset Timestamp: `2023-01-16T6:00:00Z`
 - Genesis Block CID: `bafy2bzacebqfpeylmrl4h3pq4ofbdj2bfbw2i45fuy6qm4wxcyebpsxhrpqhu`
 - sha1 Digest: `52d82b6fcad138a726477152ff2543a91f2b83f8`
 
-**Network parameters**:
+#### **Network parameters**:
 
 - Supported Sector Sizes: `512 MiB` and `32 GiB` and `64 GiB`
 - Consensus Miner Min Power: `16 GiB`
@@ -53,7 +53,7 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 - WindowPoSt Period Deadlines: `48`
 - Pre-Commit Challenge Delay: `10`
 
-**Bootstrap peers**:
+#### **Bootstrap peers**:
 
 ```
 /dns4/de0.bootstrap.hyperspace.yoga/tcp/31000/p2p/12D3KooWRiwg6EHAJMR5w3DZTgpS5W4ncWPSVP2Mr1o4ey1RYSQo
@@ -65,13 +65,13 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 
 :warning: **Under Construction** - More updates below coming soon :warning:
 
-**FVM release**:
+#### **FVM release**:
 
 - [FVM M2.1 Carbonado.2 (rr11)](https://github.com/filecoin-project/ref-fvm/issues/1371)
 - Lotus commit: [2a3989e4bd446b7f6ccee52ad6387b937072cf7f](https://github.com/filecoin-project/lotus/commit/2a3989e4bd446b7f6ccee52ad6387b937072cf7f)
 - [List of FVM releases](https://github.com/filecoin-project/ref-fvm/issues/692)
 
-**Resources**:
+#### **Resources**:
 
 - Slack Channel for Updates: [#fil-net-hyperspace-discuss](https://filecoinproject.slack.com/archives/C04JEJB82RY)
 
