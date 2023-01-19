@@ -77,6 +77,8 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 
 - **Hyperspace Docs**: [https://kb.factor8.io/en/docs/filecoin/testnets/hyperspace](https://kb.factor8.io/en/docs/filecoin/testnets/hyperspace)
 - **Faucet**: https://hyperspace.filtest.network/#faucet
+  - The faucet currently emits 5 tFIL per request with a max of 5 requests / wallet (to prevent draining attacks).
+  - _Setting up a miner?_ You may need more tFIL than this - reach out to us for more or you could try a 2nd or 3rd address.
 - **Block Explorers**:
   - [https://hyperspace.filfox.info/en](https://hyperspace.filfox.info/en)
   - [https://explorer.glif.io/?network=hyperspace](https://explorer.glif.io/?network=hyperspace)
