@@ -90,7 +90,7 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
     - web socket endpoint: wss://wss.hyperspace.node.glif.io/apigw/lotus/rpc/v0
   - **ChainStack RPC:**
     - https://filecoin-hyperspace.chainstacklabs.com/rpc/v0
-    - wss://ws-filecoin-hyperspace.chainstacklabs.com/rpc/v0
+    - web socket endpoint: wss://ws-filecoin-hyperspace.chainstacklabs.com/rpc/v0
     - Info page: https://chainstack.com/labs/#filecoin
    - **Ankr RPC:**
     - Coming Soon
