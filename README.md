@@ -93,7 +93,7 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
    - **Ankr RPC:**
     - Coming Soon
 - **Hyperspce SPs auto-accepting storage deals / Simpulating faults:**
-  - See [Support Miners - Hyperspace Docs](https://kb.factor8.io/en/docs/fil/hyperpsace/support-miners)
+  - See [Support Miners - Hyperspace Docs](https://kb.factor8.io/en/docs/filecoin/testnets/hyperspace/support-miners)
 - **MetaMask** (HowTo):
   - Open MetaMask and add a new network:
     - Name: Filecoin Hyperspace
