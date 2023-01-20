@@ -25,7 +25,7 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
     - Go to https://chainlist.org/chain/3141
     - Click on "Connect wallet"
 2. Create a new account in MetaMask to use with Filecoin.
-3. Use https://hyperspace.filtest.network/#faucet to request funds to your Ethereum address (it will be converted behind the scenes to a Filecoin f4 address)
+3. Use https://hyperspace.yoga/#faucet to request funds to your Ethereum address (it will be converted behind the scenes to a Filecoin f4 address)
 4. Follow the transaction in one of the recommended Hyperspace testnet explorers:
     - https://hyperspace.filfox.info/en 
     - https://explorer.glif.io/?network=hyperspace (or select Hyperspace from the networks dropdown)
@@ -85,7 +85,7 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 - **RPC - Public Endpoints**:
   - These endpoints are limited to all read-only Filecoin RPC API calls + `MPoolPush` (for sending already signed messages)
   - **Glif Nodes RPC:**
-    - https://api.hyperspace.node.glif.io/rpc/v1 (for stable API v0)
+    - https://api.hyperspace.node.glif.io/rpc/v1
     - web socket endpoint: wss://wss.hyperspace.node.glif.io/apigw/lotus/rpc/v1
   - **ChainStack RPC:**
     - https://filecoin-hyperspace.chainstacklabs.com/rpc/v0
