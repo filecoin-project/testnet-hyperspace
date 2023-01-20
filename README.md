@@ -63,7 +63,6 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 /dns4/sg0.bootstrap.hyperspace.yoga/tcp/31000/p2p/12D3KooWCENec46HHByaJKzbjSqz9TqVdSxSAdi9FKNwdMvfw3vp
 ```
 
-:warning: **Under Construction** - More updates below coming soon :warning:
 
 #### **FVM release**:
 
@@ -86,8 +85,8 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 - **RPC - Public Endpoints**:
   - These endpoints are limited to all read-only Filecoin RPC API calls + `MPoolPush` (for sending already signed messages)
   - **Glif Nodes RPC:**
-    - https://api.hyperspace.node.glif.io/rpc/v0 (for stable API v0)
-    - web socket endpoint: wss://wss.hyperspace.node.glif.io/apigw/lotus/rpc/v0
+    - https://api.hyperspace.node.glif.io/rpc/v1 (for stable API v0)
+    - web socket endpoint: wss://wss.hyperspace.node.glif.io/apigw/lotus/rpc/v1
   - **ChainStack RPC:**
     - https://filecoin-hyperspace.chainstacklabs.com/rpc/v0
     - web socket endpoint: wss://ws-filecoin-hyperspace.chainstacklabs.com/rpc/v0
@@ -96,16 +95,15 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
     - Coming Soon
 - **Hyperspace Storage Providers (miners) auto-accepting storage deals / simulating faults:**
   - See [Support Miners - Hyperspace Docs](https://kb.factor8.io/en/docs/filecoin/testnets/hyperspace/support-miners)
-  - _Want to run your own miner?_ See https://gist.github.com/eshon/81246bdf84b0cf416267ccba24981b2c
 - **MetaMask** (HowTo):
   - Open MetaMask and add a new network:
     - Name: Filecoin Hyperspace
-    - RPC URL: https://api.hyperspace.node.glif.io/rpc/v0 (once the public RPC has been updated, otherwise use appropriate private URL - **please see the note below**)
+    - RPC URL: https://api.hyperspace.node.glif.io/rpc/v1 (once the public RPC has been updated, otherwise use appropriate private URL - **please see the note below**)
     - ChainID: [**3141**](https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-3141.json) (Filecoin - Hyperspace testnet)
     - Currency symbol: tFIL (Test FIL).
   - Create a new account in MetaMask to use with Filecoin.
   - (OPTIONAL - the faucet accepts 0x style addresses now) Go to https://explorer.glif.io/ethereum/, and select the account to see its f4 address.
-  - Use the [faucet](https://hyperspace.filtest.network/#faucet) to draw funds to your f4 (0x style addresses are translated automatically to f4's in the backend) or alternatively use `lotus send` to transfer funds to the f4 address.
+  - Use the [faucet](https://hyperspace.yoga/#faucet) to draw funds to your f4 (0x style addresses are translated automatically to f4's in the backend) or alternatively use `lotus send` to transfer funds to the f4 address.
   - Wait until the transaction process, and verify that the funds appear in MetaMask.
   - Create another new account in MetaMask, (optional) obtain its f4 address again.
   - Use MetaMask to send funds from your first account to your second account.
