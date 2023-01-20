@@ -26,7 +26,7 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
     - Click on "Connect wallet"
 2. Create a new account in MetaMask to use with Filecoin.
 3. Use https://hyperspace.filtest.network/#faucet to request funds to your Ethereum address (it will be converted behind the scenes to a Filecoin f4 address)
-4. Follow the transaction in one of the recommended Hyperspace testnet explorers: [:warning: TODO - update]
+4. Follow the transaction in one of the recommended Hyperspace testnet explorers:
     - https://hyperspace.filfox.info/en 
     - https://explorer.glif.io/?network=hyperspace (or select Hyperspace from the networks dropdown)
 5. Your account is now funded and can be used in Ethereum tools such as Hardhat, Foundry, Remix, etc.
@@ -98,7 +98,7 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 - **MetaMask** (HowTo):
   - Open MetaMask and add a new network:
     - Name: Filecoin Hyperspace
-    - RPC URL: https://api.hyperspace.node.glif.io/rpc/v1 (once the public RPC has been updated, otherwise use appropriate private URL - **please see the note below**)
+    - RPC URL: https://api.hyperspace.node.glif.io/rpc/v1
     - ChainID: [**3141**](https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-3141.json) (Filecoin - Hyperspace testnet)
     - Currency symbol: tFIL (Test FIL).
   - Create a new account in MetaMask to use with Filecoin.
