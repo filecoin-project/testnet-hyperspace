@@ -28,6 +28,7 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 3. Use https://hyperspace.yoga/#faucet to request funds to your Ethereum address (it will be converted behind the scenes to a Filecoin f4 address)
 4. Follow the transaction in one of the recommended Hyperspace testnet explorers:
     - https://hyperspace.filfox.info/en 
+    - https://beryx.zondax.ch (developer oriented explorer, adding new features every day! )
     - https://explorer.glif.io/?network=hyperspace (or select Hyperspace from the networks dropdown)
 5. Your account is now funded and can be used in Ethereum tools such as Hardhat, Foundry, Remix, etc.
 
@@ -78,20 +79,29 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 - **Faucet**: https://hyperspace.filtest.network/#faucet
   - The faucet currently emits 5 tFIL per request with a max of 5 requests / wallet (to prevent draining attacks).
   - _Setting up a miner?_ You may need more tFIL than this - reach out to us for more or you could try a 2nd or 3rd address.
+  - You can also provide feedback at https://beryx.zondax.ch/faucet
 - **Block Explorers**:
   - [https://hyperspace.filfox.info/en](https://hyperspace.filfox.info/en)
+  - [https://beryx.zondax.ch](https://beryx.zondax.ch)
   - [https://explorer.glif.io/?network=hyperspace](https://explorer.glif.io/?network=hyperspace)
 - **Filecoin CID Checker**: [https://hyperspace.filecoin.tools/](https://hyperspace.filecoin.tools/) - check your deal CID’s storage status
+- **Zondax Filecoin Solidity Libs**
+  - https://www.npmjs.com/package/@zondax/filecoin-solidity
+  - https://github.com/Zondax/filecoin-solidity
+  - https://github.com/Zondax/fevm-solidity-precompiles  
 - **RPC - Public Endpoints**:
   - These endpoints are limited to all read-only Filecoin RPC API calls + `MPoolPush` (for sending already signed messages)
   - **Glif Nodes RPC:**
     - https://api.hyperspace.node.glif.io/rpc/v1
     - web socket endpoint: wss://wss.hyperspace.node.glif.io/apigw/lotus/rpc/v1
+  - **Zondax RPC**
+    - https://docs.zondax.ch/Beryx
+    - reach out for questions, we are flexible and want to help
   - **ChainStack RPC:**
     - https://filecoin-hyperspace.chainstacklabs.com/rpc/v0
     - web socket endpoint: wss://ws-filecoin-hyperspace.chainstacklabs.com/rpc/v0
     - Info page: https://chainstack.com/labs/#filecoin
-   - **Ankr RPC:**
+  - **Ankr RPC:**
     - Coming Soon
 - **Hyperspace Storage Providers (miners) auto-accepting storage deals / simulating faults:**
   - See [Support Miners - Hyperspace Docs](https://kb.factor8.io/en/docs/filecoin/testnets/hyperspace/support-miners)
