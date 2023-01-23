@@ -13,7 +13,7 @@ Meta info about the Hyperspace testnet for Filecoin developers
 The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended for developers' longer-term testing efforts.
 
 - As of Jan 16, Hyperspace will support the penultimate FEVM release, and will be upgraded to the the final FEVM release on Feb 2. ([List of FEVM releases](https://github.com/filecoin-project/ref-fvm/issues/692))
-- Hyperspace will support `512 MiB`, `32 GiB`, and `64 GiB` sectors with 2 miners auto-accepting new deals from developers.
+- Hyperspace supports `512 MiB`, `32 GiB`, and `64 GiB` storage sectors with 2 miners auto-accepting new deals from developers (see [Resources](#resources) - Hyperspace Storage Providers below).
 - A comparison of Filecoin's various testnets is available in [FIP #544](https://github.com/filecoin-project/FIPs/discussions/544).
 
 
@@ -28,8 +28,8 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 3. Use https://hyperspace.yoga/#faucet to request funds to your Ethereum address (it will be converted behind the scenes to a Filecoin f4 address)
 4. Follow the transaction in one of the recommended Hyperspace testnet explorers:
     - https://hyperspace.filfox.info/en 
-    - https://beryx.zondax.ch (developer oriented explorer, adding new features every day! )
-    - https://explorer.glif.io/?network=hyperspace (or select Hyperspace from the networks dropdown)
+    - https://beryx.zondax.ch 
+    - https://explorer.glif.io/?network=hyperspace 
 5. Your account is now funded and can be used in Ethereum tools such as Hardhat, Foundry, Remix, etc.
 
 ## Technical details
@@ -125,6 +125,11 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
     - Note that you may need to increase the gas limit manually because there's something strange going on with gas estimation at the moment.
   - **Note on GLIF**:
     - The GLIF explorer seems to have some problems with f4 addresses right now, please refer to the #fil-net-hyperspace-discuss for questions/solutions
+- **Docs and Developer Tools**:
+  - [Space Warp Hackathon Schedule](https://ethglobal.com/events/spacewarp#schedule)
+  - [Space Warp Developer Cheat Sheet](https://docs.google.com/document/d/1EecX8XOqOF6MNaouXL0qZAuCEK1WF5UWA5LMSlWe3RI/edit#)
+  - [FEVM Hardhat Kit, Filecoin Solidity library and Data DAO example](https://docs.filecoin.io/developers/smart-contracts/hardhat/)
+  - [Space Warp Developer Resources](https://spacewarp.fvm.dev/#resources)
 
 
 <hr>
