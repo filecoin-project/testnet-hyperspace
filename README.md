@@ -97,7 +97,7 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
     - web socket endpoint: wss://ws-filecoin-hyperspace.chainstacklabs.com/rpc/v0
     - Info page: https://chainstack.com/labs/#filecoin
   - **Ankr RPC:**
-    - Coming Soon
+    - https://rpc.ankr.com/filecoin_testnet
 - **Hyperspace Storage Providers (miners) auto-accepting storage deals / simulating faults:**
   - See [Support Miners - Hyperspace Docs](https://kb.factor8.io/en/docs/filecoin/testnets/hyperspace/support-miners)
 - **Filecoin CID Checker**:
