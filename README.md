@@ -75,6 +75,7 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 
 - Slack Channel for Updates: [#fil-net-hyperspace-discuss](https://filecoinproject.slack.com/archives/C04JEJB82RY)
 
+- **Network Status**: https://status.filecoin.io/
 - **Hyperspace Docs**: [https://kb.factor8.io/en/docs/filecoin/testnets/hyperspace](https://kb.factor8.io/en/docs/filecoin/testnets/hyperspace)
 - **Faucets**: 
   - https://hyperspace.yoga/#faucet
