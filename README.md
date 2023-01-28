@@ -132,14 +132,15 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
   - [Space Warp Developer Cheat Sheet](https://docs.google.com/document/d/1EecX8XOqOF6MNaouXL0qZAuCEK1WF5UWA5LMSlWe3RI/edit#)
   - [FEVM Hardhat Kit, Filecoin Solidity library and Data DAO example](https://docs.filecoin.io/developers/smart-contracts/hardhat/)
   - [Space Warp Developer Resources](https://spacewarp.fvm.dev/#resources)
-
+- **Snapshots**
+  - [Latest chain snapshot (pruned)](https://snapshots.hyperspace.yoga/hyperspace-latest-pruned.car)
+  - [Latest chain snapshot (full)](https://snapshots.hyperspace.yoga/hyperspace-latest-full.car)
 
 <hr>
 
 :warning: [TODO - SAMPLE INFO BELOW] :warning:
 
-- [Latest chain snapshot (pruned)](https://fil-chain-snapshots-fallback.s3.amazonaws.com/mainnet/minimal_finality_stateroots_latest.car)
-- [Latest chain snapshot (full)](https://fil-chain-snapshots-fallback.s3.amazonaws.com/mainnet/complete_chain_with_finality_stateroots_latest.car)
+
 - [Status page and incidents](https://filecoin.statuspage.io/)
 - [Stats dashboard](https://stats.filecoin.io/)
 - [Block explorer: Filscan](https://filscan.io/)
