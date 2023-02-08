@@ -104,7 +104,7 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
   - See [Support Miners - Hyperspace Docs](https://kb.factor8.io/en/docs/filecoin/testnets/hyperspace/support-miners)
 - **SP Reputation Systems**
   - https://hyperspace.filrep.io/ - info about deals and sectors is currently being updated
-     - API example: https://api.hyperspace.filrep.io/api/miners?region=Europe
+     - API example: https://api.hyperspace.filrep.io/api/v1/miners?region=Europe
 - **Filecoin CID Checker**:
   - [https://hyperspace.filecoin.tools/](https://hyperspace.filecoin.tools/) - check your deal or piece CID’s storage status
 - **Zondax Filecoin Solidity Libs**
