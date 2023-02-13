@@ -111,9 +111,10 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
   - https://www.npmjs.com/package/@zondax/filecoin-solidity
   - https://github.com/Zondax/filecoin-solidity
   - https://github.com/Zondax/fevm-solidity-precompiles
-- **Hyperspace Chain Index API**
+- **Hyperspace Chain Index APIs**
   - https://beryx.zondax.ch/ 
-  - API Docs: https://docs.zondax.ch/Beryx
+    - API Docs: https://docs.zondax.ch/Beryx
+    - GraphQL UI: https://docs.zondax.ch/beryx/graphql
 - **MetaMask** (HowTo):
   - Open MetaMask and add a new network:
     - Name: Filecoin Hyperspace
