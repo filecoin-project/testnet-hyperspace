@@ -100,7 +100,7 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
     - Info page: https://chainstack.com/labs/#filecoin
   - **Ankr RPC:**
     - https://rpc.ankr.com/filecoin_testnet
-- **Hyperspace Data Cap Request Form**
+- **Hyperspace Fil+ Data Cap Request Form**
   - https://hyperspace.yoga/#notary 
   - (for Hyperspace only, on mainnet this is handled by https://filplus.storage/apply)
 - **Hyperspace Storage Providers (miners) auto-accepting storage deals / simulating faults:**
