@@ -1,6 +1,6 @@
 # Hyperspace Testnet
 
-Hyperspace launched on Jan 16, 2023 and upgraded on Jan 18, 2023.
+Hyperspace launched on Jan 16, 2023 and upgraded on Feb 27, 2023.
 
 Meta info about the Hyperspace testnet for Filecoin developers
 
@@ -67,8 +67,8 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 
 #### **FVM release**:
 
-- [FVM M2.1 Carbonado.2 (rr11)](https://github.com/filecoin-project/ref-fvm/issues/1371)
-- Lotus commit: [2a3989e4bd446b7f6ccee52ad6387b937072cf7f](https://github.com/filecoin-project/lotus/commit/2a3989e4bd446b7f6ccee52ad6387b937072cf7f)
+- [FVM M2.1 Carbonado.3 (rr12) - Final FVM release!](https://github.com/filecoin-project/ref-fvm/issues/1372)
+- Lotus commit: [cf152e19bda7be289fd531be689279aa5f598899](https://github.com/filecoin-project/lotus/commit/cf152e19bda7be289fd531be689279aa5f598899)
 - [List of FVM releases](https://github.com/filecoin-project/ref-fvm/issues/692)
 
 #### **Resources**:
