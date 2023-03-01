@@ -86,7 +86,7 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
   - Filfox - [https://hyperspace.filfox.info/en](https://hyperspace.filfox.info/en)
   - Beryx - [https://beryx.zondax.ch](https://beryx.zondax.ch)
   - Glif Explorer - [https://explorer.glif.io/?network=hyperspace](https://explorer.glif.io/?network=hyperspace)
-  - Starboard[https://fvm.starboard.ventures/](https://fvm.starboard.ventures/)
+  - Starboard - [https://fvm.starboard.ventures/](https://fvm.starboard.ventures/)
   - Filscan - [https://hyperspace.filscan.io/](https://hyperspace.filscan.io/)
 - **RPC - Public Endpoints**:
   - These endpoints are limited to all read-only Filecoin JSON RPC API calls + `MPoolPush` (for sending already signed messages)
