@@ -89,7 +89,6 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
   - Starboard - [https://fvm.starboard.ventures/](https://fvm.starboard.ventures/)
   - Filscan - [https://hyperspace.filscan.io/](https://hyperspace.filscan.io/)
 - **RPC - Public Endpoints**:
-  - These endpoints are limited to all read-only Filecoin JSON RPC API calls + `MPoolPush` (for sending already signed messages)
   - **Glif Nodes RPC:**
     - https://api.hyperspace.node.glif.io/rpc/v1
     - web socket endpoint: wss://wss.hyperspace.node.glif.io/apigw/lotus/rpc/v1
