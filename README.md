@@ -1,5 +1,9 @@
 # Hyperspace Testnet
 
+:warning: The Hyperspace Testnet will be **discontinued** at the end of May. Please use the [Calibration testnet](https://github.com/filecoin-project/testnet-calibration/blob/main/README.md). :warning:
+
+<hr>
+
 Hyperspace launched on Jan 16, 2023 and upgraded on Feb 27, 2023.
 
 Meta info about the Hyperspace testnet for Filecoin developers
