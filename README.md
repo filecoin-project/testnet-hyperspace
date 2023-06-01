@@ -37,7 +37,7 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 
 ## Technical details
 
-**Maintainer:** @f8-fil-ops
+**Maintainer:** offline, unmaintained
 
 #### **Genesis**:
 
@@ -79,11 +79,8 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
 - Slack Channel for Updates: [#fil-net-hyperspace-discuss](https://filecoinproject.slack.com/archives/C04JEJB82RY)
 
 - **Network Status**: https://status.filecoin.io/
-- **Hyperspace Docs**: [https://kb.factor8.io/en/docs/filecoin/testnets/hyperspace](https://kb.factor8.io/en/docs/filecoin/testnets/hyperspace)
+- **Hyperspace Docs**: 
 - **Faucets**: 
-  - https://hyperspace.yoga/#faucet
-    - The faucet currently emits 5 tFIL per request with a max of 5 requests / wallet (to prevent draining attacks).
-    - _Setting up a miner?_ You may need more tFIL than this - reach out to us for more or you could try a 2nd or 3rd address.
   - https://beryx.zondax.ch/faucet
 - **Block Explorers**:
   - Filfox - [https://hyperspace.filfox.info/en](https://hyperspace.filfox.info/en)
@@ -103,13 +100,12 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
   - **Ankr RPC:**
     - https://rpc.ankr.com/filecoin_testnet
 - **Hyperspace Fil+ Data Cap Requests**
-  - Apply for Data Cap: https://hyperspace.yoga/#notary 
-    - (for Hyperspace only, on mainnet this is handled by https://filplus.storage/apply)
-  - Check Data Cap allocations: https://hyperspace.yoga/#dc-check
+  - Apply for Data Cap:  
+  - Check Data Cap allocations: 
   - [Fil+ Data Cap Dashboard for Hyperspace](https://hyperspace.filplus.d.interplanetary.one/notaries/t01227)
     - [API reference](https://documenter.getpostman.com/view/131998/Tzsim4NU#introhttps://documenter.getpostman.com/view/131998/Tzsim4NU#intro) but use http://api.hyperspace.filplus.d.interplanetary.one
 - **Hyperspace Storage Providers (miners) auto-accepting storage deals / simulating faults:**
-  - See [Support Miners - Hyperspace Docs](https://kb.factor8.io/en/docs/filecoin/testnets/hyperspace/support-miners)
+  - 
 - **SP Reputation Systems**
   - https://hyperspace.filrep.io/ - info about deals and sectors is currently being updated
      - API example: https://api.hyperspace.filrep.io/api/v1/miners?region=Europe
@@ -131,7 +127,7 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
     - Currency symbol: tFIL (Test FIL).
   - Create a new account in MetaMask to use with Filecoin.
   - (OPTIONAL - the faucet accepts 0x style addresses now) Go to https://explorer.glif.io/ethereum/, and select the account to see its f4 address.
-  - Use the [faucet](https://hyperspace.yoga/#faucet) to draw funds to your f4 (0x style addresses are translated automatically to f4's in the backend) or alternatively use `lotus send` to transfer funds to the f4 address.
+  - Use the [faucet]() to draw funds to your f4 (0x style addresses are translated automatically to f4's in the backend) or alternatively use `lotus send` to transfer funds to the f4 address.
   - Wait until the transaction process, and verify that the funds appear in MetaMask.
   - Create another new account in MetaMask, (optional) obtain its f4 address again.
   - Use MetaMask to send funds from your first account to your second account.
@@ -145,8 +141,6 @@ The Filecoin Hyperspace testnet is a stable testnet with fewer resets intended f
   - [FEVM Hardhat Kit, Filecoin Solidity library and Data DAO example](https://docs.filecoin.io/developers/smart-contracts/hardhat/)
   - [Space Warp Developer Resources](https://spacewarp.fvm.dev/#resources)
 - **Snapshots**
-  - [Latest chain snapshot (pruned)](https://snapshots.hyperspace.yoga/hyperspace-latest-pruned.car)
-  - [Latest chain snapshot (full)](https://snapshots.hyperspace.yoga/hyperspace-latest-full.car)
 
 <hr>
 
